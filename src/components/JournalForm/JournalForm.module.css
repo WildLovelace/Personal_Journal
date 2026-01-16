@@ -1,0 +1,33 @@
+.journal-form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.invalid {
+    outline: 1px solid red;
+    background-color: rgb(101, 102, 102);
+}
+
+.input-title {
+    font-family: "Inter", sans-serif;
+    border: none;
+    background: none;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-bottom: 1px solid #727272;
+}
+
+.form-label {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
