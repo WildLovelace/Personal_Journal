@@ -4,12 +4,8 @@
     gap: 30px;
 }
 
-.invalid {
-    outline: 1px solid red;
-    background-color: rgb(101, 102, 102);
-}
-
 .input-title {
+    width: 100%;
     font-family: "Inter", sans-serif;
     border: none;
     background: none;
@@ -24,10 +20,28 @@
     display: flex;
     align-items: center;
     gap: 20px;
+    min-width: 150px;
 }
 
 .form-row {
     display: flex;
     align-items: center;
     gap: 50px;
+}
+
+.input {
+    border: none;
+    background: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-bottom: 1px solid #727272;
+    width: 100%;
+}
+
+
+.invalid {
+    outline: 1px solid red;
+    background-color: rgba(73, 0, 0, 0.863);
 }
